@@ -23,7 +23,7 @@ export default {
         details: this.details,
         complete: false
     }
-      fetch('http://localhost:3000/projects', {
+      fetch('https://raw.githubusercontent.com/Ahmed2398/app-task/master/data/db.json/projects', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' } ,
         body: JSON.stringify(project)
