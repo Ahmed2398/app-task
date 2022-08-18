@@ -30,7 +30,7 @@ export default {
     };
   },
   mounted() {
-    fetch('http://localhost:3000/projects')
+    fetch('https://raw.githubusercontent.com/Ahmed2398/app-task/master/data/db.json')
       .then(res => res.json())
       .then(data => this.projects = data)
       .catch(err => console.log(err))
