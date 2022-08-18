@@ -3,6 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 
-module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/app-task/" : "/",
-};
+// module.exports = {
+//   publicPath: process.env.NODE_ENV === "production" ? "/app-task/" : "/",
+// };
